@@ -1,0 +1,250 @@
+\documentclass[1pt,a4paper,verdana]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[scale=0.90]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{} % Your first name
+\familyname{Seckin Celik} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[0.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemmaincolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+
+\title{}
+\address{Meddah Ismet Sk}{Besiktas, Istanbul, Turkey}
+\mobile{90 545 343 0700}
+\email{seckin.celk@hotmail.com}
+\homepage{www.linkedin.com/in/seckincelik} {www.linkedin.com/in/seckincelik}% The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2009 - 2012}{Masters of Science in Industrial Engineering and Operations Research}{University of Massachusetts at Amherst}{MA/USA}{\textit{}}{Thesis: Factors Which Influence Key Entry Speed On Hard and Soft Keyboards: Experience, Eye Behaviors and Finger Movements} 
+\cventry{2004 - 2008}{Bachelors of Science in Management Engineering}{Istanbul Technical University}{Istanbul/TURKEY}{\textit{}}{Thesis: Business model design of an online advertisement agency} 
+
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+\cventry{Sep 2018 - Present}{Senior Software Developer}{Koc System}{Istanbul/TURKEY}{\textit{}}
+	{
+		\begin{itemize}
+		\item Performed in a Technical Lead Developer role in development of PLEASE Leasing Application, Windows Task Schedulers, Online and Vendor Applications.
+		\item Played active role in supporting and solving customer issues.
+		\item Managed and Executed Test and Production Deployment Processes in accordance with customer demands.
+		\item Redesign of database packages in order to reduce dependency issues faced in production deployment.		
+		\item Upgraded Windows Server Version of Test, UAT and Production servers. Migrated applications to new servers and realized testing phase.
+\end{itemize}}		
+\cventry{Sep 2017 - Sep 2018}{Senior Software Developer}{Citibank}{Istanbul/TURKEY}{\textit{}}
+	{
+		\begin{itemize}
+		\item Local Banking Application -Windows Form Application- modules developed in C\# and .NET 2.0 Framework. 
+		\item Development of Legal Reporting and Integration applications in C\# and .NET Framework.
+\end{itemize}}
+
+\cventry{Jun 2016 - July 2017}{Software Developer}{TRT WORLD}{Istanbul/TURKEY}{\textit{}}{\begin{itemize}
+		\item Internal Portal project is developed in ASP.NET Web Forms.			
+		\item Sharepoint (WebParts \& WebApp) Portal and Microsoft Dynamics AX (SSRS Reports) is developed.				
+\end{itemize}}
+
+\cventry{May 2015 - Jun 2016}{Software Developer}{Tekniks Technology}{Istanbul/TURKEY}{\textit{}}{\begin{itemize}
+		\item Fixing bugs, refactoring and supporting Sayax Application.
+		\item Designing, Building and Testing stand-alone applications based on the customer demands.
+\end{itemize}}
+
+\cventry{Jan 2013 - May 2015}{Software Developer}{Unit Electric}{Istanbul/TURKEY}{\textit{}}{\begin{itemize}
+		\item Automated power trade processes mostly on wholesale trade by developing modules into existing software.
+		\item Generated various reports and built forecast models that aided traders on futures market.
+		\item Production optimization model is built for run of river type hydro power plants using AMPL and Cplex Solver.
+\end{itemize}}
+
+\cventry{2011 - 2012}{Research Assistant}{University of Massachusetts, Arbella Insurance Lab}{MA/USA}{\textit{}}{\begin{itemize}
+		\item Designed an experiment for analyzing eye movement behaviors and text entry
+		times for soft screen users.
+		\item Developed a command line program for analyzing letter characteristic of text
+		passages.
+		\item Developed a program to take user input in JAVA 2SE
+\end{itemize}}
+
+\cventry{2010 - 2011}{Research Assistant}{University of Massachusetts, Dyams Simulation Laboratory}{MA/USA}{\textit{}}{\begin{itemize}
+		\item Designed a state dependent simulation of building evacuation in order to determine bottlenecks.
+		\item Built a web site to enable users to run building evacuation models using a JAVA Applet		
+\end{itemize}}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+\subsection{Database Package Redesign}
+\cvitem{Description}{Database Packages are divided into stored procedures to resolve dependency issue in production deployments.}
+\cvitem{Technology} {C\#, .NET 4.7.2 , PL/SQL, SAP Crystal Reports }
+%\cvitem{3\textsuperscript{rd} Party Library} {RestSharp, Quartz Scheduler, Devexpress, SimpleConfigSections}
+\cvitem{Role} {\begin{itemize}
+		\item Developed an application to divide database packages to individual stored procedures.
+		\item Modified existing reports developed in SAP Crystal Reports that addresses individual procedures.
+		\item Altered Business Layer in accordance with generated procedures.
+\end{itemize}}
+
+
+\subsection{Leasing via Credit Card}
+\cvitem{Description}{A new feature is built into PLEASE Leasing Application so that users would lease via credit card.}
+\cvitem{Technology} {C\#, .NET 4.7.2 , PL/SQL, ASP.NET MVC}
+\cvitem{3\textsuperscript{rd} Party Library} {QR Coder}
+\cvitem{Role} {\begin{itemize}
+		\item Integrated a new payment process that complies with existing leasing process into PLEASE Leasing Application.
+		\item Developed  "Payment System" application that enables online payments for users.
+		\item Designed new approval mechanism and e-mail notifications for new payment method.
+\end{itemize}}
+
+
+\subsection{Foreign Currency Credit and Income Nomination Project (Citibank)}
+\cvitem{Description}{By May 2\textsuperscript{nd} 2018 all banks are obliged to nominate foreign loan credits and customer income to Credit Bureau (KKB) online. Citibank's current crediting process is altered to comply with KKB online system}
+\cvitem{Technology} {C\#,.NET 2.0 \& .NET 4.5.1 , WCF, Windows Services, SQL Server, T-SQL }
+\cvitem{3\textsuperscript{rd} Party Library} {RestSharp, Quartz Scheduler, Devexpress, SimpleConfigSections}
+\cvitem{Role} {\begin{itemize}
+		\item KKB REST API methods and Token Services are implemented in a WCF application.
+		\item Two windows services are built. One for stock credits and the other one for credit automatic payments delivery.
+		\item Windows forms are developed under local CitiUser application.
+\end{itemize}}
+
+\subsection{Banks Association of Turkey Risk Central Reports Automation (Citibank)}
+\cvitem{Description}{Reports such as Limit Risk,Limit Risk Lease, Credit Approve-Rejected and Derivative are mandatory to send Risk Center. Automated report data and file generation is done under the scope of this project.}
+\cvitem{Technology} {C\#, .NET 2.0 \& .NET 4.5.1 , Windows Task Scheduler, LinqToSql, SQL Server, T-SQL}
+\cvitem{Role} {\begin{itemize}
+		\item A total of 8 windows schedulers created for each report type. One for data generation and one for report output delivery to FTP server.
+		\item Stored procedures are created in order to prepare report data on warehouse.
+		\item Windows forms are developed under local CitiUser application in order to view report status.
+\end{itemize}}
+
+\subsection{Automated Invoice System Project (Citibank)}
+\cvitem{Description}{Online payment system is built for customer invoices}
+\cvitem{Technology} {C\#, .NET 2.0 \& .NET 4.5.1 , Windows Services, IBM MQ, SQL Server, T-SQL, Entity Framework}
+\cvitem{Role} {\begin{itemize}
+		\item A windows service application is developed in order to get invoice data and deliver it to IBM MQ to be sent to Flex Banking Application		
+\end{itemize}}
+
+\subsection{End Of Vendor Support Database Migration (Citibank)}
+\cvitem{Description}{Microsoft Sql Server 2005 database migration to Microsoft Sql Server 2012 }
+\cvitem{Technology} {SQL Server, T-SQL, SSIS, DTS, Visual Basic}
+\cvitem{Role} {\begin{itemize}
+		\item DTS packages are converted to SSIS packages.Script tasks are converted from Active Script to Visual Basic.
+		\item Existing Visual Basic Code is refactored and stored procedures are optimized.
+\end{itemize}}
+
+\subsection{Internal Portal Project (TRT WORLD)}
+\cvitem{Description}{Web application in order to carry out Human Resources Department operations and replace Microsoft Dynamics AX }
+\cvitem{Technology} {ASP.NET, Web Forms, HTML, Css, JavaScript, JQuery, Telerik, LinqToSql, T-SQL}
+\cvitem{Role} {\begin{itemize}
+		\item Developed a web portal in ASP.NET Web Forms that enables HR department to handle staff and personnel affairs.
+		\item Active Directory is integrated for user logins and authorization in application.
+		\item KPI evaluation system is built into internal portal so that HR can effectively measure personnel performances.
+\end{itemize}}
+
+\subsection{Power Plant Shift Follow-Up Application (Tekniks Technology)}
+\cvitem{Description}{A stand-alone windows form application that enables managers to follow shift incidents and generate reports }
+\cvitem{Technology} {C\#, .NET, LinqToSql, T-SQL, Devexpress}
+\cvitem{Role} {\begin{itemize}
+		\item Business requirement is gathered and database design is done.
+		\item A stand-alone application is built for each shift responsible to enter incident data as a Winform application.
+		\item Built SSRS reports that visualizes power plant incidents.
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Technical Skill}
+
+\cvitem{Programming Language}{ C\#}
+\cvitem{Scripting Language}{HTML, CSS, Java Script, JQuery, React, XML, JSON}
+\cvitem{Platforms/ Framework}{.NET, ASP.NET MVC}
+\cvitem{Database}{MS SQL-T-SQL, ORACLE-PL/SQL}
+\cvitem{ETL}{SSIS}
+\cvitem{ORM Frameworks}{LinqToSql, Entity Framework (DB First \& Code First)}
+\cvitem{Development Tools}{Microsoft Visual Studio 2013 and 2015, 2017}
+\cvitem{Version Controlling Tool}{Team Foundation Version Control,Git}
+\cvitem{Concepts} {Object Oriented Programming, Design Patterns and Refactoring}
+\cvitem{Other} {Jira, AMPL, IBM Ilog, IBM MQ ,Cplex, Latex, Telerik UI for ASP.NET AJAX, Devexpress Components, Telerik, MS Office, SSRS,SAP Crystal Reports }
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOPS AND SEMINARS SECTION
+%----------------------------------------------------------------------------------------
+\section{Workshops and Seminars}
+\cvitem{2019}{Advanced ASP.NET MVC}
+\cvitem{2019}{Building Applications with React}
+\cvitem{2015}{Design Patterns in C\#}
+\cvitem{2015}{Advanced topics in .NET and C\#}
+\cvitem{2016}{MS Dynamics AX Development I}
+\cvitem{2016}{MS Dynamics AX Development II}
+\cvitem{2016}{MS Dynamics AX Development III}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{References}
+%
+%\cvdoublecolumn{\cvreference{Prof. Dr. Donald L. Fisher}
+    %{Department Head in Mechanical and Industrial Engineering Faculty}
+    %{}
+    %{University of Massachusetts at Amherst}
+    %{}%
+    %{fisher@ecs.umass.edu}
+    %{(413) 545-1657}%
+    %}
+    %{\cvreference{asadas asdas}
+    %{Software Development Manager}
+    %{Tekniks Technology}
+    %{}
+    %{}
+    %{sekicn@hotmail.com}
+    %{+90 544 345 9669}}%
+    
+\end{document}
