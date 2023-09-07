@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.15)  15 MAR 2023 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.15)  7 SEP 2023 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,7 @@ er-sity\T1/lmr/m/n/10.95 (+20) ,
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-22.
+06.
 
 (C:\Users\secki\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -582,16 +582,16 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                \setlength{\footskip}{40.8pt}.
 
 [2]
-Overfull \hbox (0.99644pt too wide) in paragraph at lines 210--210
- [][]\T1/lmr/m/n/10.95 (-20) Programming
- []
-
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 40.8pt, for example:
 (fancyhdr)                \setlength{\footskip}{40.8pt}.
 
 [3]
+Overfull \hbox (0.99644pt too wide) in paragraph at lines 208--208
+ [][]\T1/lmr/m/n/10.95 (-20) Programming
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 40.8pt, for example:
@@ -602,11 +602,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3076F501C86B08DAAC1B699B0BD88C2A;3055.
  ) 
 Here is how much of TeX's memory you used:
- 12971 strings out of 475385
- 217083 string characters out of 2776907
- 712343 words of memory out of 3000000
+ 12985 strings out of 475385
+ 217229 string characters out of 2776907
+ 704344 words of memory out of 3000000
  34037 multiletter control sequences out of 15000+600000
- 518774 words of font info for 95 fonts, out of 8000000 for 9000
+ 519355 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,83p,1003b,496s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/secki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
@@ -619,7 +619,7 @@ s/secki/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/
 secki/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/
 secki/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/
 secki/AppData/Local/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on main.pdf (4 pages, 295096 bytes).
+Output written on main.pdf (4 pages, 296163 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
